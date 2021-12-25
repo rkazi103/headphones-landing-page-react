@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import logo from "../../assets/logo.png";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -10,7 +11,7 @@ function Header() {
     <header className="header" id="header">
       <nav className="nav container">
         <a href="#" className="nav__logo">
-          <img src="assets/img/logo.png" alt="" />
+          <img src={logo} alt="" />
         </a>
 
         <div className={`nav__menu ${open && "show-menu"}`} id="nav-menu">
