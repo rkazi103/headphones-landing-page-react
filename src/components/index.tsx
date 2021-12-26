@@ -5,3 +5,4 @@ export { default as Specs } from "./Specs";
 export { default as Case } from "./Case";
 export { default as Discount } from "./Discount";
 export { default as Products } from "./Products";
+export { default as Footer } from "./Footer";
