@@ -1,5 +1,13 @@
 import "./App.css";
-import { Header, Home, Specs, Sponsor, Case } from "./components";
+import {
+  Header,
+  Home,
+  Specs,
+  Sponsor,
+  Case,
+  Discount,
+  Products,
+} from "./components";
 
 function App() {
   return (
@@ -11,6 +19,8 @@ function App() {
         <Sponsor />
         <Specs />
         <Case />
+        <Discount />
+        <Products />
       </main>
     </>
   );
