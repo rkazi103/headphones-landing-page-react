@@ -1,14 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo.png";
 
 function Header() {
   const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(false);
 
   const linkAction = (): void => setOpen(false);
 
+  const changeHeaderBackground = (): void => {
+    if (window.scrollY >= 50) setActive(true);
+    else setActive(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeHeaderBackground);
+
+    return () => {
+      window.removeEventListener("scroll", changeHeaderBackground);
+    };
+  }, []);
+
   return (
-    <header className="header" id="header">
+    <header className={`header ${active && "scroll-header"}`} id="header">
       <nav className="nav container">
         <a href="#" className="nav__logo">
           <img src={logo} alt="" />
