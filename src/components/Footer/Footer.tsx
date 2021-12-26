@@ -1,11 +1,12 @@
 import "./Footer.css";
+import logo from "../../assets/logo.png";
 
 function Footer() {
   return (
-    <footer className="footer section">
+    <footer className="footer section" id="footer">
       <div className="footer__container container grid">
         <span className="footer__logo">
-          <img src="assets/img/logo.png" alt="" />
+          <img src={logo} alt="Logo" />
         </span>
 
         <div className="footer__content">

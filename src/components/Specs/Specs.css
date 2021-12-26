@@ -36,3 +36,27 @@
   top: 2rem;
   right: -4rem;
 }
+
+@media screen and (max-width: 340px) {
+  .specs__img {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .specs__img {
+    position: initial;
+  }
+
+  .specs__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .specs__img {
+    width: 300px;
+  }
+}

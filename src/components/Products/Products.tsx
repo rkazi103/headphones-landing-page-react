@@ -8,7 +8,7 @@ import product5 from "../../assets/product5.png";
 
 function Products() {
   return (
-    <section className="products section">
+    <section className="products section" id="products">
       <h2 className="section__title section__title-gradient products__line">
         Choose <br />
         Your Style

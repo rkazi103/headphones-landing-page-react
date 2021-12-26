@@ -76,3 +76,19 @@
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
+
+@media screen and (min-width: 767px) {
+  .footer__container {
+    grid-template-columns: 0.4fr 0.7fr 0.7fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__container {
+    padding-top: 3rem;
+  }
+
+  .footer__copy {
+    margin-top: 9rem;
+  }
+}

@@ -3,7 +3,7 @@ import "./Case.css";
 
 function Case() {
   return (
-    <section className="case section grid">
+    <section className="case section grid" id="case">
       <h2 className="section__title section__title-gradient">Case</h2>
 
       <div className="case__container container grid">
