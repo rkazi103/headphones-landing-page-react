@@ -10,8 +10,15 @@ import {
   Products,
   Footer,
 } from "./components";
+import ScrollReveal from "scrollreveal";
+import animateScroll from "./lib/animateScroll";
 
 function App() {
+  const sr = ScrollReveal({
+    distance: "60px",
+    duration: 2500,
+    delay: 400,
+  });
   const [active, setActive] = useState(false);
 
   const handleScroll = (): void => {
@@ -26,6 +33,10 @@ function App() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    animateScroll(sr);
+  }, [sr]);
 
   return (
     <>

@@ -21,7 +21,7 @@ function Specs() {
           </div>
 
           <div className="specs__data">
-            <i className="ri-plug- specs__icon"></i>
+            <i className="ri-plug-line specs__icon"></i>
             <h3 className="specs__title">Load</h3>
             <span className="specs__subtitle"> Fast charge 4.2-AAC</span>
           </div>
