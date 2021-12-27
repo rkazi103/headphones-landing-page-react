@@ -24,9 +24,9 @@ function Header() {
   return (
     <header className={`header ${active && "scroll-header"}`} id="header">
       <nav className="nav container">
-        <a href="#" className="nav__logo">
+        <span className="nav__logo">
           <img src={logo} alt="" />
-        </a>
+        </span>
 
         <div className={`nav__menu ${open && "show-menu"}`} id="nav-menu">
           <ul className="nav__list">

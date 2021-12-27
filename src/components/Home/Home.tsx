@@ -23,12 +23,12 @@ function Home() {
               delivering first-rate playback.
             </p>
 
-            <a href="#" className="button button--flex">
+            <span className="button button--flex">
               <span className="button--flex">
                 <i className="ri-shopping-bag-line button__icon"></i> Add to Bag
               </span>
               <span className="home__price">$299</span>
-            </a>
+            </span>
           </div>
         </div>
       </div>

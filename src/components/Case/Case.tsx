@@ -17,9 +17,9 @@ function Case() {
             whenever you want, and keep your durability forever.
           </p>
 
-          <a href="#" className="button button--flex">
+          <button className="button button--flex">
             <i className="ri-information-line button__icon"></i> More info
-          </a>
+          </button>
         </div>
       </div>
     </section>

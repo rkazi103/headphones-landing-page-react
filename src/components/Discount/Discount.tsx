@@ -11,9 +11,9 @@ function Discount() {
             your music
           </h2>
           <p className="discount__description">Get it now, up to 50% off.</p>
-          <a href="#" className="button button--flex">
+          <button className="button button--flex">
             <i className="ri-shopping-bag-line button__icon"></i> Shop Now
-          </a>
+          </button>
         </div>
 
         <img src={discount} alt="More Headphones" className="discount__img" />

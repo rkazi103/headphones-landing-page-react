@@ -53,9 +53,9 @@ function App() {
 
       <Footer />
 
-      <a href="#" className={`scrollup ${active && "show-scroll"}`}>
+      <button className={`scrollup ${active && "show-scroll"}`}>
         <i className="ri-arrow-up-s-line scrollup__icon"></i>
-      </a>
+      </button>
     </>
   );
 }
